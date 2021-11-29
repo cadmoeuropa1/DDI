@@ -54,5 +54,12 @@ namespace Practica1_WindowsForms
                 txtNombre.Focus();
             }
         }
+
+        private void btnSolicitar_Click(object sender, EventArgs e)
+        {
+            using (SolicitudPrestamo prestamo = new SolicitudPrestamo(txtNombre.Text))
+                prestamo.ShowDialog();
+
+        }
     }
 }

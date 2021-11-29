@@ -8,3 +8,14 @@ C:\ddi\Practica1_WindowsForms\obj\Debug\Practica1_WindowsForms.csproj.GenerateRe
 C:\ddi\Practica1_WindowsForms\obj\Debug\Practica1_WindowsForms.csproj.CoreCompileInputs.cache
 C:\ddi\Practica1_WindowsForms\obj\Debug\Practica1_WindowsForms.exe
 C:\ddi\Practica1_WindowsForms\obj\Debug\Practica1_WindowsForms.pdb
+C:\ddi\DDI\Practica1_WindowsForms\bin\Debug\Practica1_WindowsForms.exe.config
+C:\ddi\DDI\Practica1_WindowsForms\bin\Debug\Practica1_WindowsForms.exe
+C:\ddi\DDI\Practica1_WindowsForms\bin\Debug\Practica1_WindowsForms.pdb
+C:\ddi\DDI\Practica1_WindowsForms\obj\Debug\Practica1_WindowsForms.csproj.AssemblyReference.cache
+C:\ddi\DDI\Practica1_WindowsForms\obj\Debug\Practica1_WindowsForms.SolicitudPrestamo.resources
+C:\ddi\DDI\Practica1_WindowsForms\obj\Debug\Practica1_WindowsForms.Inicio.resources
+C:\ddi\DDI\Practica1_WindowsForms\obj\Debug\Practica1_WindowsForms.Properties.Resources.resources
+C:\ddi\DDI\Practica1_WindowsForms\obj\Debug\Practica1_WindowsForms.csproj.GenerateResource.cache
+C:\ddi\DDI\Practica1_WindowsForms\obj\Debug\Practica1_WindowsForms.csproj.CoreCompileInputs.cache
+C:\ddi\DDI\Practica1_WindowsForms\obj\Debug\Practica1_WindowsForms.exe
+C:\ddi\DDI\Practica1_WindowsForms\obj\Debug\Practica1_WindowsForms.pdb

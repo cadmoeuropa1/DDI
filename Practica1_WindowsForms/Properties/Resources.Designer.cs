@@ -79,5 +79,67 @@ namespace Practica1_WindowsForms.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Aldburg
+        ///Almaida
+        ///Alqualondë
+        ///Andúnië
+        ///Annúminas
+        ///Armenelos
+        ///Arnor
+        ///Avallónë
+        ///Belegost
+        ///Bree
+        ///Brithombar
+        ///Budgeford
+        ///Calembel
+        ///Caras Galadhon
+        ///Carn Dûm
+        ///Combe
+        ///Dale
+        ///Dol Amroth
+        ///Dol Guldur
+        ///Dunharrow
+        ///Edhellond
+        ///Edoras
+        ///Eglarest
+        ///Eldalondë
+        ///Ephel Brandir
+        ///Eriador
+        ///Esgaroth
+        ///Ethring
+        ///Fangorn
+        ///Forlond
+        ///Formenos
+        ///Fornost
+        ///Framsburg
+        ///Galabas
+        ///Goblin Town
+        ///Gondolin
+        ///Gondor
+        ///Harad
+        ///Harlond
+        ///Havens of Sirion
+        ///Havens of the Falas
+        ///Helm&apos;s Deep
+        ///Hobbiton
+        ///Hyarastorni
+        ///Isengard
+        ///Khazad-dûm
+        ///Linhir
+        ///Lothlórien
+        ///Minas Morgul
+        ///Minas Tirith
+        ///Mirkwood
+        ///Mithlond
+        ///Moria
+        ///Mordo [resto de la cadena truncado]&quot;;.
+        /// </summary>
+        internal static string lugares {
+            get {
+                return ResourceManager.GetString("lugares", resourceCulture);
+            }
+        }
     }
 }

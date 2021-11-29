@@ -49,6 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="SolicitudPrestamo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SolicitudPrestamo.Designer.cs">
+      <DependentUpon>SolicitudPrestamo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Inicio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -57,6 +63,9 @@
     </Compile>
     <Compile Include="BancoTierraMedia.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="SolicitudPrestamo.resx">
+      <DependentUpon>SolicitudPrestamo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
     </EmbeddedResource>
@@ -88,6 +97,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="dinero.ico" />
+    <None Include="lugares.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />

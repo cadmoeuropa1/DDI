@@ -91,6 +91,7 @@ namespace Practica1_WindowsForms
             this.btnSolicitar.TabIndex = 4;
             this.btnSolicitar.Text = "Solicita tu préstamo";
             this.btnSolicitar.UseVisualStyleBackColor = false;
+            this.btnSolicitar.Click += new System.EventHandler(this.btnSolicitar_Click);
             // 
             // btnSalir
             // 
