@@ -16,6 +16,7 @@ namespace Practica1_WindowsForms
         string[] razas_disponibles = {"Balrog", "Drúedain", "Enano", "Elfo", "Ent", "Goblin", 
             "Hobbit", "Hombre", "Istari (Mago)", "Orco", "Troll", "Uruk-hai" };
         string[] lugares_disponibles;
+        int[] cuotas = {12, 24, 36, 60, 120, 180, 240};
 
         public SolicitudPrestamo(string nombre)
         {
@@ -36,6 +37,7 @@ namespace Practica1_WindowsForms
             label1.Text += nombreCliente;
             visualizarRazas();
             visualizarLugares();
+            visualizarCuotas();
             btnSolicitar.Enabled = false;
         }
 
@@ -58,6 +60,13 @@ namespace Practica1_WindowsForms
         private void controlPaneles()
         {
 
+        }
+        private void visualizarCuotas()
+        {
+          for(int i = 0; i<cuotas.Length; i++)
+            {
+                cmbCuotas.Items.Add(cuotas[i]);
+            }
         }
     }
 }
