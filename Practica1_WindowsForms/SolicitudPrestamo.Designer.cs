@@ -198,6 +198,7 @@ namespace Practica1_WindowsForms
             this.btnSolicitar.TabIndex = 6;
             this.btnSolicitar.Text = "CONFIRMAR SOLICITUD";
             this.btnSolicitar.UseVisualStyleBackColor = false;
+            this.btnSolicitar.Click += new System.EventHandler(this.btnSolicitar_Click);
             // 
             // btnVolver
             // 

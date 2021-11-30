@@ -68,5 +68,10 @@ namespace Practica1_WindowsForms
                 cmbCuotas.Items.Add(cuotas[i]);
             }
         }
+
+        private void btnSolicitar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
