@@ -1,0 +1,10 @@
+D:\DDI\DAM2-RaulPaniti-Ejercicio2-2\bin\Debug\DAM2-RaulPaniti-Ejercicio2-2.exe.config
+D:\DDI\DAM2-RaulPaniti-Ejercicio2-2\bin\Debug\DAM2-RaulPaniti-Ejercicio2-2.exe
+D:\DDI\DAM2-RaulPaniti-Ejercicio2-2\bin\Debug\DAM2-RaulPaniti-Ejercicio2-2.pdb
+D:\DDI\DAM2-RaulPaniti-Ejercicio2-2\obj\Debug\DAM2-RaulPaniti-Ejercicio2-2.csproj.AssemblyReference.cache
+D:\DDI\DAM2-RaulPaniti-Ejercicio2-2\obj\Debug\DAM2_RaulPaniti_Ejercicio2_2.Form1.resources
+D:\DDI\DAM2-RaulPaniti-Ejercicio2-2\obj\Debug\DAM2_RaulPaniti_Ejercicio2_2.Properties.Resources.resources
+D:\DDI\DAM2-RaulPaniti-Ejercicio2-2\obj\Debug\DAM2-RaulPaniti-Ejercicio2-2.csproj.GenerateResource.cache
+D:\DDI\DAM2-RaulPaniti-Ejercicio2-2\obj\Debug\DAM2-RaulPaniti-Ejercicio2-2.csproj.CoreCompileInputs.cache
+D:\DDI\DAM2-RaulPaniti-Ejercicio2-2\obj\Debug\DAM2-RaulPaniti-Ejercicio2-2.exe
+D:\DDI\DAM2-RaulPaniti-Ejercicio2-2\obj\Debug\DAM2-RaulPaniti-Ejercicio2-2.pdb
