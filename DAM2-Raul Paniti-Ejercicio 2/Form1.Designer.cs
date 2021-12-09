@@ -32,6 +32,8 @@ namespace DAM2_Raul_Paniti_Ejercicio_2
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.pnlDatos = new System.Windows.Forms.Panel();
+            this.txtNDireccion = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.cmbDirecciones = new System.Windows.Forms.ComboBox();
             this.txtTelefono = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
@@ -47,8 +49,6 @@ namespace DAM2_Raul_Paniti_Ejercicio_2
             this.btnSalir = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.txtNDireccion = new System.Windows.Forms.TextBox();
             this.pnlDatos.SuspendLayout();
             this.pnlMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
@@ -69,6 +69,22 @@ namespace DAM2_Raul_Paniti_Ejercicio_2
             this.pnlDatos.Name = "pnlDatos";
             this.pnlDatos.Size = new System.Drawing.Size(209, 192);
             this.pnlDatos.TabIndex = 0;
+            // 
+            // txtNDireccion
+            // 
+            this.txtNDireccion.Location = new System.Drawing.Point(76, 136);
+            this.txtNDireccion.Name = "txtNDireccion";
+            this.txtNDireccion.Size = new System.Drawing.Size(32, 20);
+            this.txtNDireccion.TabIndex = 7;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(51, 139);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(19, 13);
+            this.label7.TabIndex = 6;
+            this.label7.Text = "Nº";
             // 
             // cmbDirecciones
             // 
@@ -170,7 +186,7 @@ namespace DAM2_Raul_Paniti_Ejercicio_2
             // btnPedir
             // 
             this.btnPedir.AutoSize = true;
-            this.btnPedir.BackColor = System.Drawing.Color.IndianRed;
+            this.btnPedir.BackColor = System.Drawing.Color.YellowGreen;
             this.btnPedir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPedir.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPedir.Location = new System.Drawing.Point(286, 373);
@@ -184,12 +200,12 @@ namespace DAM2_Raul_Paniti_Ejercicio_2
             // btnSalir
             // 
             this.btnSalir.AutoSize = true;
-            this.btnSalir.BackColor = System.Drawing.Color.Tan;
-            this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnSalir.Font = new System.Drawing.Font("Lucida Sans", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalir.BackColor = System.Drawing.Color.IndianRed;
+            this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalir.Location = new System.Drawing.Point(691, 401);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(82, 33);
+            this.btnSalir.Size = new System.Drawing.Size(89, 37);
             this.btnSalir.TabIndex = 3;
             this.btnSalir.Text = "SALIR";
             this.btnSalir.UseVisualStyleBackColor = false;
@@ -214,22 +230,6 @@ namespace DAM2_Raul_Paniti_Ejercicio_2
             this.label6.Size = new System.Drawing.Size(105, 20);
             this.label6.TabIndex = 7;
             this.label6.Text = "Tipo de menú";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(51, 139);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(19, 13);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "Nº";
-            // 
-            // txtNDireccion
-            // 
-            this.txtNDireccion.Location = new System.Drawing.Point(76, 136);
-            this.txtNDireccion.Name = "txtNDireccion";
-            this.txtNDireccion.Size = new System.Drawing.Size(32, 20);
-            this.txtNDireccion.TabIndex = 7;
             // 
             // Form1
             // 

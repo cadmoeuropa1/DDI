@@ -52,6 +52,15 @@ namespace DAM2_Raul_Paniti_Ejercicio_2
             switch (validaciones()) {
                 case 0:
                     errorProvider1.Clear();
+                    if (chbEstandar.Checked == true)
+                    {
+                        MenuEstandar menuEstandar = new MenuEstandar();
+                        menuEstandar.ShowDialog();
+                    }else if (chbVegano.Checked == true)
+                    {
+                        MenuVegano mVegano = new MenuVegano();
+                        mVegano.ShowDialog();
+                    }
                     break;
                 case 1:
                     errorProvider1.SetError(pnlDatos, "Debe introducir un nombre y no debe contener números");
