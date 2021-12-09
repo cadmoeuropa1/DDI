@@ -98,33 +98,67 @@ namespace DAM2_Raul_Paniti_Ejercicio_2
         {
             switch (validar())
             {
-
+                case 0:
+                    visualizarPedido();
+                    break;
+                case 1:
+                    errorProvider1.SetError(pnlDetalles, "Debe seleccionar al menos un primer plato y un segundo plato");
+                    break;
+                case 2:
+                    errorProvider1.SetError(pnlDetalles, "Si no desea postre ni bebida indiquelo con la opción 'No'");
+                    break;
+                case 3:
+                    errorProvider1.SetError(pnlDetalles, "Debe indicar si quiere o no pan");
+                    break;
+                
             }
         }
+
+        private void visualizarPedido()
+        {
+            String mensaje="";
+            float precioBasico = 9.9f;
+            float precioFinal = 0f;
+            if (cmbBebidas.SelectedIndex == 0 && cmbPostres.SelectedIndex == 0)
+            {
+                precioFinal = precioBasico;
+            }
+            else if (cmbBebidas.SelectedIndex != -1 && cmbPostres.SelectedIndex != -1)
+            {
+                precioFinal = precioBasico + 3f + bebidas[cmbBebidas.SelectedIndex].getPrecio();
+            }
+            else if (cmbPostres.SelectedIndex != -1)
+            {
+                precioFinal = precioBasico + 3f;
+            }
+            else if (cmbBebidas.SelectedIndex != -1)
+            {
+                precioFinal = precioBasico + bebidas[cmbBebidas.SelectedIndex].getPrecio();
+            }
+                if (chbSi.Checked)
+                {
+                    precioFinal += precioFinal + 0.8f;
+                }
+            mensaje = "El precio final del pedido es de " + precioFinal + "€";
+            lblFinal.Text = mensaje;
+        }
+
         private int validar()
         {
             if (cmbPrimeros.SelectedIndex <= -1 || cmbSegundos.SelectedIndex <= -1)
             {
                 return 1;
             }
+            else if (cmbBebidas.SelectedIndex <=-1 || cmbPostres.SelectedIndex <= -1)
+            {
+                return 2;
+            }else if (!chbNo.Checked && !chbSi.Checked)
+            {
+                return 3;
+            }
             else
                 return 0;
         }
     }
-
-        partial class Bebida {
-            String nombre;
-            float precio;
-            public Bebida(String nombre, float precio)
-            {
-                this.nombre = nombre;
-                this.precio = precio;
-            }
-            public override string ToString()
-            {
-                String visualizar = nombre + "     " + precio + "€";
-                return visualizar;
-            }
-        }
     } 
 
