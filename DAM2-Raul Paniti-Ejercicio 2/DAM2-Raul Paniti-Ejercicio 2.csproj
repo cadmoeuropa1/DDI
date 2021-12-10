@@ -102,5 +102,14 @@
   <ItemGroup>
     <None Include="Resources\restaurant_87579.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PostresVeganos.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PrimerosVeganos.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SegundosVeganos.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

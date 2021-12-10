@@ -29,12 +29,16 @@ namespace DAM2_Raul_Paniti_Ejercicio_2
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblFinal = new System.Windows.Forms.Label();
             this.btnVolver = new System.Windows.Forms.Button();
             this.btnVisualizar = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.pnlDetalles = new System.Windows.Forms.Panel();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.cmbPostres = new System.Windows.Forms.ComboBox();
             this.cmbSegundos = new System.Windows.Forms.ComboBox();
             this.cmbPrimeros = new System.Windows.Forms.ComboBox();
@@ -48,19 +52,18 @@ namespace DAM2_Raul_Paniti_Ejercicio_2
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.lblBienvenida = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.panel1.SuspendLayout();
             this.pnlDetalles.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.Controls.Add(this.lblFinal);
-            this.panel1.Location = new System.Drawing.Point(490, 138);
+            this.panel1.Location = new System.Drawing.Point(466, 138);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(170, 53);
+            this.panel1.Size = new System.Drawing.Size(221, 53);
             this.panel1.TabIndex = 11;
             // 
             // lblFinal
@@ -83,6 +86,7 @@ namespace DAM2_Raul_Paniti_Ejercicio_2
             this.btnVolver.TabIndex = 10;
             this.btnVolver.Text = "VOLVER";
             this.btnVolver.UseVisualStyleBackColor = false;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
             // btnVisualizar
             // 
@@ -96,6 +100,7 @@ namespace DAM2_Raul_Paniti_Ejercicio_2
             this.btnVisualizar.TabIndex = 9;
             this.btnVisualizar.Text = "VISUALIZAR PEDIDO";
             this.btnVisualizar.UseVisualStyleBackColor = false;
+            this.btnVisualizar.Click += new System.EventHandler(this.btnVisualizar_Click);
             // 
             // label3
             // 
@@ -129,6 +134,33 @@ namespace DAM2_Raul_Paniti_Ejercicio_2
             this.pnlDetalles.Name = "pnlDetalles";
             this.pnlDetalles.Size = new System.Drawing.Size(320, 305);
             this.pnlDetalles.TabIndex = 7;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(228, 135);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(19, 13);
+            this.label10.TabIndex = 14;
+            this.label10.Text = "3€";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(228, 84);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(27, 13);
+            this.label9.TabIndex = 13;
+            this.label9.Text = "6\'6€";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(228, 35);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(28, 13);
+            this.label8.TabIndex = 12;
+            this.label8.Text = "5,3€";
             // 
             // cmbPostres
             // 
@@ -181,6 +213,7 @@ namespace DAM2_Raul_Paniti_Ejercicio_2
             this.chbNo.TabIndex = 6;
             this.chbNo.Text = "No";
             this.chbNo.UseVisualStyleBackColor = true;
+            this.chbNo.CheckedChanged += new System.EventHandler(this.chbNo_CheckedChanged);
             // 
             // chbSi
             // 
@@ -191,6 +224,7 @@ namespace DAM2_Raul_Paniti_Ejercicio_2
             this.chbSi.TabIndex = 5;
             this.chbSi.Text = "Si";
             this.chbSi.UseVisualStyleBackColor = true;
+            this.chbSi.CheckedChanged += new System.EventHandler(this.chbSi_CheckedChanged);
             // 
             // label6
             // 
@@ -247,32 +281,9 @@ namespace DAM2_Raul_Paniti_Ejercicio_2
             this.lblBienvenida.TabIndex = 6;
             this.lblBienvenida.Text = "Bienvenido, ";
             // 
-            // label8
+            // errorProvider1
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(228, 35);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(28, 13);
-            this.label8.TabIndex = 12;
-            this.label8.Text = "5,3€";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(228, 84);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(27, 13);
-            this.label9.TabIndex = 13;
-            this.label9.Text = "6\'6€";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(228, 135);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(19, 13);
-            this.label10.TabIndex = 14;
-            this.label10.Text = "3€";
+            this.errorProvider1.ContainerControl = this;
             // 
             // MenuVegano
             // 
@@ -291,6 +302,7 @@ namespace DAM2_Raul_Paniti_Ejercicio_2
             this.panel1.PerformLayout();
             this.pnlDetalles.ResumeLayout(false);
             this.pnlDetalles.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -320,5 +332,6 @@ namespace DAM2_Raul_Paniti_Ejercicio_2
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }

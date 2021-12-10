@@ -17,9 +17,17 @@ namespace DAM2_Raul_Paniti_Ejercicio_2
         String[] postres = { "Flan de queso", "Helado", "Arroz con leche", "Tiramisú", "Pieza de fruta" };
         Bebida[] bebidas = { new Bebida("Café", 1.2f), new Bebida("Agua", 1f), new Bebida("Zumo/Refresco", 1.5f),
             new Bebida("Vino", 1.2f) };
-        public MenuEstandar()
+        Dictionary<String, float> precios;
+        String nombre_cliente;
+        public MenuEstandar(String nombre)
         {
+            nombre_cliente = nombre;
             InitializeComponent();
+            precios = new Dictionary<string, float>();
+            precios["precioPrimero"] = 4.4f;
+            precios["precioSegundo"] = 5.5f;
+            precios["precioPostre"] = 3.0f;
+            precios["precioPan"] = 0.8f;
         }
 
         private void btnVolver_Click(object sender, EventArgs e)
@@ -33,6 +41,7 @@ namespace DAM2_Raul_Paniti_Ejercicio_2
             asignarSegundos();
             AsignarPostres();
             asignarBebidas();
+            lblBienvenida.Text += nombre_cliente;
         }
 
         private void asignarBebidas()
@@ -100,6 +109,7 @@ namespace DAM2_Raul_Paniti_Ejercicio_2
             {
                 case 0:
                     visualizarPedido();
+                    errorProvider1.Clear();
                     break;
                 case 1:
                     errorProvider1.SetError(pnlDetalles, "Debe seleccionar al menos un primer plato y un segundo plato");
@@ -117,28 +127,26 @@ namespace DAM2_Raul_Paniti_Ejercicio_2
         private void visualizarPedido()
         {
             String mensaje="";
-            float precioBasico = 9.9f;
-            float precioFinal = 0f;
-            if (cmbBebidas.SelectedIndex == 0 && cmbPostres.SelectedIndex == 0)
-            {
-                precioFinal = precioBasico;
-            }
-            else if (cmbBebidas.SelectedIndex != -1 && cmbPostres.SelectedIndex != -1)
-            {
-                precioFinal = precioBasico + 3f + bebidas[cmbBebidas.SelectedIndex].getPrecio();
-            }
-            else if (cmbPostres.SelectedIndex != -1)
-            {
-                precioFinal = precioBasico + 3f;
-            }
-            else if (cmbBebidas.SelectedIndex != -1)
-            {
-                precioFinal = precioBasico + bebidas[cmbBebidas.SelectedIndex].getPrecio();
-            }
-                if (chbSi.Checked)
+            float precioFinal = precios["precioPrimero"] + precios["precioSegundo"];
+                if (cmbBebidas.SelectedIndex == 0 && cmbPostres.SelectedIndex == 0)
                 {
-                    precioFinal += precioFinal + 0.8f;
                 }
+                else if (cmbBebidas.SelectedIndex > 0 && cmbPostres.SelectedIndex > 0)
+                {
+                    precioFinal += precios["precioPostre"] + bebidas[cmbBebidas.SelectedIndex-1].getPrecio();
+                }
+                else if (cmbPostres.SelectedIndex >0 && cmbBebidas.SelectedIndex == 0)
+                {
+                    precioFinal += precios["precioPostre"];
+                }
+                else if (cmbBebidas.SelectedIndex >0 && cmbPostres.SelectedIndex == 0)
+                {
+                    precioFinal += bebidas[cmbBebidas.SelectedIndex-1].getPrecio();
+                }
+            if (chbSi.Checked)
+            {
+                precioFinal += precios["precioPan"];
+            }
             mensaje = "El precio final del pedido es de " + precioFinal + "€";
             lblFinal.Text = mensaje;
         }

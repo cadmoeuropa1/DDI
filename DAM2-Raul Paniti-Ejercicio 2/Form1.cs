@@ -49,16 +49,17 @@ namespace DAM2_Raul_Paniti_Ejercicio_2
 
         private void btnPedir_Click(object sender, EventArgs e)
         {
+            String nombre = txtNombre.Text;
             switch (validaciones()) {
                 case 0:
                     errorProvider1.Clear();
                     if (chbEstandar.Checked == true)
                     {
-                        MenuEstandar menuEstandar = new MenuEstandar();
-                        menuEstandar.ShowDialog();
+                        MenuEstandar mEstandar = new MenuEstandar(nombre);
+                        mEstandar.ShowDialog();
                     }else if (chbVegano.Checked == true)
                     {
-                        MenuVegano mVegano = new MenuVegano();
+                        MenuVegano mVegano = new MenuVegano(nombre);
                         mVegano.ShowDialog();
                     }
                     break;

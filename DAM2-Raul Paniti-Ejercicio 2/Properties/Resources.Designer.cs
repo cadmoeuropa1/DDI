@@ -69,5 +69,45 @@ namespace DAM2_Raul_Paniti_Ejercicio_2.Properties {
                 return ((System.Drawing.Icon)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Helado vegano
+        ///Pieza de fruta
+        ///Yogur vegano
+        ///Brownie vegano
+        ///Cheesecake vegano.
+        /// </summary>
+        internal static string PostresVeganos {
+            get {
+                return ResourceManager.GetString("PostresVeganos", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Tallarines y seitán
+        ///Curry de garbanzos
+        ///Cuscús con verduras
+        ///Risotto de setas
+        ///Pasta con berenjena
+        ///.
+        /// </summary>
+        internal static string PrimerosVeganos {
+            get {
+                return ResourceManager.GetString("PrimerosVeganos", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Hamburguesas veganas
+        ///Tofu marinado
+        ///Tofu al curry
+        ///Rollitos de soja
+        ///Rollitos de calabacin.
+        /// </summary>
+        internal static string SegundosVeganos {
+            get {
+                return ResourceManager.GetString("SegundosVeganos", resourceCulture);
+            }
+        }
     }
 }
