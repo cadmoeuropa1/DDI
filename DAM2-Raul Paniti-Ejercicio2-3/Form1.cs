@@ -12,27 +12,29 @@ namespace DAM2_Raul_Paniti_Ejercicio2_3
 {
     public partial class Form1 : Form
     {
+        String[] pistas = { "Futbol", "Fut-Sala/Multiusos", "Baloncesto", "Padel" };
         public Form1()
         {
             InitializeComponent();
-            panel1_Paint(panel1, null);
+            configurarComboBox();
         }
-        private void panel1_Paint(object sender, PaintEventArgs e)
+        public void configurarComboBox()
         {
-            PaintTransparentBackground(panel1, e);
-            using (Brush b = new SolidBrush(Color.FromArgb(128, panel1.BackColor)))
+            for (int i = 0; i<pistas.Length; i++)
             {
-                e.Graphics.FillRectangle(b, e.ClipRectangle);
+                cmbPista.Items.Add(pistas[i]);
             }
         }
 
-        private static void PaintTransparentBackground(Control c, PaintEventArgs e)
+        private void cmbPista_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (c.Parent == null || !Application.RenderWithVisualStyles)
-                return;
-
-            ButtonRenderer.DrawParentBackground(e.Graphics, c.ClientRectangle, c);
+            switch (cmbPista.SelectedIndex)
+            {
+                case 0:
+                    break;
+                case 1:
+                    break;
+            }
         }
     }
-
 }

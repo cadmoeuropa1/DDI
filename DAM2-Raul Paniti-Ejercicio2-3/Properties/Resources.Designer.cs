@@ -63,6 +63,26 @@ namespace DAM2_Raul_Paniti_Ejercicio2_3.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1490886333_37_basketball_82467 {
+            get {
+                object obj = ResourceManager.GetObject("_1490886333_37_basketball_82467", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ball_tennis_padel_sport_icon_141847 {
+            get {
+                object obj = ResourceManager.GetObject("ball_tennis_padel_sport_icon_141847", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Fondo_ejercicio2_3 {
             get {
                 object obj = ResourceManager.GetObject("Fondo_ejercicio2_3", resourceCulture);
@@ -76,6 +96,26 @@ namespace DAM2_Raul_Paniti_Ejercicio2_3.Properties {
         internal static System.Drawing.Bitmap si {
             get {
                 object obj = ResourceManager.GetObject("si", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Soccer_Ball_icon_icons_com_76265 {
+            get {
+                object obj = ResourceManager.GetObject("Soccer_Ball_icon_icons_com_76265", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap soccer_field_icon_137175 {
+            get {
+                object obj = ResourceManager.GetObject("soccer_field_icon_137175", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

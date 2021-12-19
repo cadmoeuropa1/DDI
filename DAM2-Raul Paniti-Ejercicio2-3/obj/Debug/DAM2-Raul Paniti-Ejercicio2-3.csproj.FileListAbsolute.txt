@@ -1,0 +1,11 @@
+D:\DDI\DAM2-Raul Paniti-Ejercicio2-3\obj\Debug\DAM2-Raul Paniti-Ejercicio2-3.csproj.AssemblyReference.cache
+D:\DDI\DAM2-Raul Paniti-Ejercicio2-3\obj\Debug\DAM2_Raul_Paniti_Ejercicio2_3.Form1.resources
+D:\DDI\DAM2-Raul Paniti-Ejercicio2-3\obj\Debug\DAM2_Raul_Paniti_Ejercicio2_3.Properties.Resources.resources
+D:\DDI\DAM2-Raul Paniti-Ejercicio2-3\obj\Debug\DAM2-Raul Paniti-Ejercicio2-3.csproj.GenerateResource.cache
+D:\DDI\DAM2-Raul Paniti-Ejercicio2-3\obj\Debug\DAM2-Raul Paniti-Ejercicio2-3.csproj.CoreCompileInputs.cache
+D:\DDI\DAM2-Raul Paniti-Ejercicio2-3\bin\Debug\DAM2-Raul Paniti-Ejercicio2-3.exe.config
+D:\DDI\DAM2-Raul Paniti-Ejercicio2-3\bin\Debug\DAM2-Raul Paniti-Ejercicio2-3.exe
+D:\DDI\DAM2-Raul Paniti-Ejercicio2-3\bin\Debug\DAM2-Raul Paniti-Ejercicio2-3.pdb
+D:\DDI\DAM2-Raul Paniti-Ejercicio2-3\bin\Debug\ADM_Combo_DLL.dll
+D:\DDI\DAM2-Raul Paniti-Ejercicio2-3\obj\Debug\DAM2-Raul Paniti-Ejercicio2-3.exe
+D:\DDI\DAM2-Raul Paniti-Ejercicio2-3\obj\Debug\DAM2-Raul Paniti-Ejercicio2-3.pdb

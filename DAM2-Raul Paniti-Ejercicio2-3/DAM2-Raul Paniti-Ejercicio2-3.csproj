@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ADM_Combo_DLL">
+      <HintPath>..\..\Descargas\ADM_Combo_DLL.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -85,6 +88,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\si.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1490886333-37-basketball_82467.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ball_tennis_padel_sport_icon_141847.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Soccer_Ball_icon-icons.com_76265.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soccer_field_icon_137175.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
