@@ -32,6 +32,7 @@ namespace DAM2_Raul_Paniti_Ejercicio2_3
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.pnlCentral = new System.Windows.Forms.Panel();
+            this.btnSalir = new System.Windows.Forms.Button();
             this.btnContinuar = new System.Windows.Forms.Button();
             this.rbNo = new System.Windows.Forms.RadioButton();
             this.rbSi = new System.Windows.Forms.RadioButton();
@@ -54,6 +55,7 @@ namespace DAM2_Raul_Paniti_Ejercicio2_3
             // 
             this.pnlCentral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(150)))), ((int)(((byte)(152)))), ((int)(((byte)(154)))));
             this.pnlCentral.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pnlCentral.Controls.Add(this.btnSalir);
             this.pnlCentral.Controls.Add(this.btnContinuar);
             this.pnlCentral.Controls.Add(this.rbNo);
             this.pnlCentral.Controls.Add(this.rbSi);
@@ -71,6 +73,21 @@ namespace DAM2_Raul_Paniti_Ejercicio2_3
             this.pnlCentral.Name = "pnlCentral";
             this.pnlCentral.Size = new System.Drawing.Size(641, 347);
             this.pnlCentral.TabIndex = 0;
+            // 
+            // btnSalir
+            // 
+            this.btnSalir.AutoSize = true;
+            this.btnSalir.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnSalir.BackColor = System.Drawing.Color.Transparent;
+            this.btnSalir.Font = new System.Drawing.Font("Segoe Print", 10.25F, System.Drawing.FontStyle.Bold);
+            this.btnSalir.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnSalir.Location = new System.Drawing.Point(571, 306);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(63, 34);
+            this.btnSalir.TabIndex = 12;
+            this.btnSalir.Text = "SALIR";
+            this.btnSalir.UseVisualStyleBackColor = false;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // btnContinuar
             // 
@@ -161,11 +178,11 @@ namespace DAM2_Raul_Paniti_Ejercicio2_3
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Segoe Print", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(100, 128);
+            this.label3.Location = new System.Drawing.Point(195, 128);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(192, 33);
+            this.label3.Size = new System.Drawing.Size(97, 33);
             this.label3.TabIndex = 4;
-            this.label3.Text = "Nombre completo:";
+            this.label3.Text = "Nombre:";
             // 
             // imgPista
             // 
@@ -256,6 +273,7 @@ namespace DAM2_Raul_Paniti_Ejercicio2_3
         private System.Windows.Forms.RadioButton rbNo;
         private System.Windows.Forms.RadioButton rbSi;
         private System.Windows.Forms.ErrorProvider error1;
+        private System.Windows.Forms.Button btnSalir;
     }
 }
 

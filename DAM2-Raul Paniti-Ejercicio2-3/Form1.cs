@@ -75,12 +75,18 @@ namespace DAM2_Raul_Paniti_Ejercicio2_3
             switch (validaciones())
             {
                 case 0:
+                    error1.Clear();
                     horas[cmbHoras.SelectedIndex].reservado = true;
                     if (rbSi.Checked)
                     {
-                        MessageBox.Show("RESERVA COMPLETADA PARA FECHA " + System.DateTime.Today + hora.hora + "\n"
-                            + textBox1.Text + ", sí empadronado \n" + "Por un valor de " + diccionario["precioEmpadronado"] + "€");
+                        MessageBox.Show("RESERVA COMPLETADA PARA FECHA " + DateTime.Now.ToString("dd-MM-yyyy") + " " + hora.hora.ToString() + "\n"
+                            + textBox1.Text + ", sí empadronado \n" + "Por un valor de " + diccionario["precioEmpadronado"] + "€\n" + "PISTA ALQUILADA: " + pistas[cmbPista.SelectedIndex]);
+                    }else if (rbNo.Checked)
+                    {
+                        MessageBox.Show("RESERVA COMPLETADA PARA FECHA " + DateTime.Now.ToString("dd-MM-yyyy") + " " + hora.hora.ToString() + "\n"
+                           + textBox1.Text + ", no empadronado \n" + "Por un valor de " + diccionario["precioNoEmpadronado"] + "€");
                     }
+                    actualizarHoras();
                     break;
                 case 1:
                     error1.SetError(btnContinuar, "Debe seleccionar una pista.");
@@ -95,6 +101,12 @@ namespace DAM2_Raul_Paniti_Ejercicio2_3
                     error1.SetError(btnContinuar, "Debe indicar si está empadronado o no");
                     break;
             }
+        }
+
+        private void actualizarHoras()
+        {
+            cmbHoras.Items.Clear();
+            agregarHoras();
         }
 
         private int validaciones()
@@ -137,6 +149,11 @@ namespace DAM2_Raul_Paniti_Ejercicio2_3
             {
                 return 2;
             }
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
