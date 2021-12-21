@@ -1,0 +1,10 @@
+C:\ddi\DDI\RAUL_PANITI_1EVA\bin\Debug\RAUL_PANITI_1EVA.exe.config
+C:\ddi\DDI\RAUL_PANITI_1EVA\bin\Debug\RAUL_PANITI_1EVA.exe
+C:\ddi\DDI\RAUL_PANITI_1EVA\bin\Debug\RAUL_PANITI_1EVA.pdb
+C:\ddi\DDI\RAUL_PANITI_1EVA\obj\Debug\RAUL_PANITI_1EVA.csproj.AssemblyReference.cache
+C:\ddi\DDI\RAUL_PANITI_1EVA\obj\Debug\RAUL_PANITI_1EVA.Form1.resources
+C:\ddi\DDI\RAUL_PANITI_1EVA\obj\Debug\RAUL_PANITI_1EVA.Properties.Resources.resources
+C:\ddi\DDI\RAUL_PANITI_1EVA\obj\Debug\RAUL_PANITI_1EVA.csproj.GenerateResource.cache
+C:\ddi\DDI\RAUL_PANITI_1EVA\obj\Debug\RAUL_PANITI_1EVA.csproj.CoreCompileInputs.cache
+C:\ddi\DDI\RAUL_PANITI_1EVA\obj\Debug\RAUL_PANITI_1EVA.exe
+C:\ddi\DDI\RAUL_PANITI_1EVA\obj\Debug\RAUL_PANITI_1EVA.pdb
