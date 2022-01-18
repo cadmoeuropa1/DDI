@@ -1,0 +1,13 @@
+D:\DDI\ProyectoBases\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+D:\DDI\ProyectoBases\CapaPresentacion\bin\Debug\CapaPresentacion.exe
+D:\DDI\ProyectoBases\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+D:\DDI\ProyectoBases\CapaPresentacion\bin\Debug\FontAwesome.Sharp.dll
+D:\DDI\ProyectoBases\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+D:\DDI\ProyectoBases\CapaPresentacion\obj\Debug\CapaPresentacion.Login.resources
+D:\DDI\ProyectoBases\CapaPresentacion\obj\Debug\CapaPresentacion.Inicio.resources
+D:\DDI\ProyectoBases\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+D:\DDI\ProyectoBases\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+D:\DDI\ProyectoBases\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+D:\DDI\ProyectoBases\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
+D:\DDI\ProyectoBases\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+D:\DDI\ProyectoBases\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
