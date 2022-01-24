@@ -131,6 +131,7 @@ namespace CapaPresentacion
             this.btnLogin.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnLogin.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnLogin.UseVisualStyleBackColor = false;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // btnCancelar
             // 
