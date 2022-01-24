@@ -129,7 +129,6 @@ namespace CapaPresentacion
             this.btnLogin.TabIndex = 7;
             this.btnLogin.Text = "Acceder";
             this.btnLogin.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnLogin.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnLogin.UseVisualStyleBackColor = false;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
@@ -150,6 +149,7 @@ namespace CapaPresentacion
             this.btnCancelar.Size = new System.Drawing.Size(102, 25);
             this.btnCancelar.TabIndex = 8;
             this.btnCancelar.Text = "Salir";
+            this.btnCancelar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnCancelar.UseVisualStyleBackColor = false;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 

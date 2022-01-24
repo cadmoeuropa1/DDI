@@ -11,3 +11,9 @@ D:\DDI\ProyectoBases\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreComp
 D:\DDI\ProyectoBases\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
 D:\DDI\ProyectoBases\CapaPresentacion\obj\Debug\CapaPresentacion.exe
 D:\DDI\ProyectoBases\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+D:\DDI\ProyectoBases\CapaPresentacion\bin\Debug\CapaEntidad.dll
+D:\DDI\ProyectoBases\CapaPresentacion\bin\Debug\CapaNegocio.dll
+D:\DDI\ProyectoBases\CapaPresentacion\bin\Debug\CapaDatos.dll
+D:\DDI\ProyectoBases\CapaPresentacion\bin\Debug\CapaEntidad.pdb
+D:\DDI\ProyectoBases\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+D:\DDI\ProyectoBases\CapaPresentacion\bin\Debug\CapaDatos.pdb
