@@ -1,0 +1,3 @@
+C:\ddi\DDI\TPV_Paniti_Raul\CapaEntidad\obj\Release\CapaEntidad.Properties.Resources.resources
+C:\ddi\DDI\TPV_Paniti_Raul\CapaEntidad\obj\Release\CapaEntidad.csproj.GenerateResource.cache
+C:\ddi\DDI\TPV_Paniti_Raul\CapaEntidad\obj\Release\CapaEntidad.csproj.CoreCompileInputs.cache

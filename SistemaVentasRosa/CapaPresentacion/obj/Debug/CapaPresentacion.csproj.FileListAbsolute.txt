@@ -27,3 +27,32 @@ C:\Users\ROSA P\source\repos\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPr
 C:\Users\ROSA P\source\repos\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.frmProveedores.resources
 C:\Users\ROSA P\source\repos\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.frmUsuarios.resources
 C:\Users\ROSA P\source\repos\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.frmVentas.resources
+C:\ddi\DDI\SistemaVentasRosa\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+C:\ddi\DDI\SistemaVentasRosa\CapaPresentacion\bin\Debug\CapaPresentacion.exe
+C:\ddi\DDI\SistemaVentasRosa\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\ddi\DDI\SistemaVentasRosa\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\ddi\DDI\SistemaVentasRosa\CapaPresentacion\bin\Debug\CapaEntidad.dll
+C:\ddi\DDI\SistemaVentasRosa\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\ddi\DDI\SistemaVentasRosa\CapaPresentacion\bin\Debug\FontAwesome.Sharp.dll
+C:\ddi\DDI\SistemaVentasRosa\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\ddi\DDI\SistemaVentasRosa\CapaPresentacion\bin\Debug\CapaEntidad.pdb
+C:\ddi\DDI\SistemaVentasRosa\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\ddi\DDI\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\ddi\DDI\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.frmCategoria.resources
+C:\ddi\DDI\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.frmClientes.resources
+C:\ddi\DDI\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.frmCompras.resources
+C:\ddi\DDI\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.frmDetalleCompra.resources
+C:\ddi\DDI\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.frmDetalleVenta.resources
+C:\ddi\DDI\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.frmInformes.resources
+C:\ddi\DDI\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.frmProducto.resources
+C:\ddi\DDI\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.frmProveedores.resources
+C:\ddi\DDI\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.frmUsuarios.resources
+C:\ddi\DDI\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.frmVentas.resources
+C:\ddi\DDI\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.Inicio.resources
+C:\ddi\DDI\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.Login.resources
+C:\ddi\DDI\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\ddi\DDI\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\ddi\DDI\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\ddi\DDI\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\ddi\DDI\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+C:\ddi\DDI\SistemaVentasRosa\CapaPresentacion\obj\Debug\CapaPresentacion.pdb

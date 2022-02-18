@@ -1,0 +1,9 @@
+C:\ddi\DDI\SistemaVentasRosa\CapaDatos\bin\Release\CapaDatos.dll
+C:\ddi\DDI\SistemaVentasRosa\CapaDatos\bin\Release\CapaDatos.pdb
+C:\ddi\DDI\SistemaVentasRosa\CapaDatos\bin\Release\CapaEntidad.dll
+C:\ddi\DDI\SistemaVentasRosa\CapaDatos\bin\Release\CapaEntidad.pdb
+C:\ddi\DDI\SistemaVentasRosa\CapaDatos\obj\Release\CapaDatos.csproj.AssemblyReference.cache
+C:\ddi\DDI\SistemaVentasRosa\CapaDatos\obj\Release\CapaDatos.csproj.CoreCompileInputs.cache
+C:\ddi\DDI\SistemaVentasRosa\CapaDatos\obj\Release\CapaDatos.csproj.CopyComplete
+C:\ddi\DDI\SistemaVentasRosa\CapaDatos\obj\Release\CapaDatos.dll
+C:\ddi\DDI\SistemaVentasRosa\CapaDatos\obj\Release\CapaDatos.pdb

@@ -1,0 +1,5 @@
+C:\ddi\DDI\SistemaVentasRosa\CapaEntidad\bin\Release\CapaEntidad.dll
+C:\ddi\DDI\SistemaVentasRosa\CapaEntidad\bin\Release\CapaEntidad.pdb
+C:\ddi\DDI\SistemaVentasRosa\CapaEntidad\obj\Release\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\ddi\DDI\SistemaVentasRosa\CapaEntidad\obj\Release\CapaEntidad.dll
+C:\ddi\DDI\SistemaVentasRosa\CapaEntidad\obj\Release\CapaEntidad.pdb

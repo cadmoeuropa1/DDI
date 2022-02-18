@@ -1,0 +1,7 @@
+C:\ddi\DDI\TPV_Paniti_Raul\CapaPresentacion\obj\Debug\CapaPresentacion.frmNombre.resources
+C:\ddi\DDI\TPV_Paniti_Raul\CapaPresentacion\obj\Debug\CapaPresentacion.frmProductos.resources
+C:\ddi\DDI\TPV_Paniti_Raul\CapaPresentacion\obj\Debug\CapaPresentacion.Inicio.resources
+C:\ddi\DDI\TPV_Paniti_Raul\CapaPresentacion\obj\Debug\CapaPresentacion.Login.resources
+C:\ddi\DDI\TPV_Paniti_Raul\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\ddi\DDI\TPV_Paniti_Raul\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\ddi\DDI\TPV_Paniti_Raul\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache

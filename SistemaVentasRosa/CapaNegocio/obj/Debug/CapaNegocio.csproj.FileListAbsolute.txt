@@ -9,3 +9,14 @@ C:\Users\ROSA P\source\repos\SistemaVentasRosa\CapaNegocio\bin\Debug\CapaEntidad
 C:\Users\ROSA P\source\repos\SistemaVentasRosa\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
 C:\Users\ROSA P\source\repos\SistemaVentasRosa\CapaNegocio\bin\Debug\CapaDatos.dll
 C:\Users\ROSA P\source\repos\SistemaVentasRosa\CapaNegocio\bin\Debug\CapaDatos.pdb
+C:\ddi\DDI\SistemaVentasRosa\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\ddi\DDI\SistemaVentasRosa\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\ddi\DDI\SistemaVentasRosa\CapaNegocio\bin\Debug\CapaDatos.dll
+C:\ddi\DDI\SistemaVentasRosa\CapaNegocio\bin\Debug\CapaEntidad.dll
+C:\ddi\DDI\SistemaVentasRosa\CapaNegocio\bin\Debug\CapaDatos.pdb
+C:\ddi\DDI\SistemaVentasRosa\CapaNegocio\bin\Debug\CapaEntidad.pdb
+C:\ddi\DDI\SistemaVentasRosa\CapaNegocio\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
+C:\ddi\DDI\SistemaVentasRosa\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\ddi\DDI\SistemaVentasRosa\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+C:\ddi\DDI\SistemaVentasRosa\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\ddi\DDI\SistemaVentasRosa\CapaNegocio\obj\Debug\CapaNegocio.pdb

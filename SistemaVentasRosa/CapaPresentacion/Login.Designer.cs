@@ -47,8 +47,9 @@ namespace CapaPresentacion
             this.label1.BackColor = System.Drawing.Color.SteelBlue;
             this.label1.Dock = System.Windows.Forms.DockStyle.Left;
             this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(254, 236);
+            this.label1.Size = new System.Drawing.Size(190, 191);
             this.label1.TabIndex = 0;
             // 
             // label2
@@ -57,9 +58,10 @@ namespace CapaPresentacion
             this.label2.BackColor = System.Drawing.Color.SteelBlue;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(-2, 190);
+            this.label2.Location = new System.Drawing.Point(-2, 154);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(256, 29);
+            this.label2.Size = new System.Drawing.Size(207, 25);
             this.label2.TabIndex = 1;
             this.label2.Text = "SISTEMA DE VENTA";
             // 
@@ -69,11 +71,11 @@ namespace CapaPresentacion
             this.iconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.Store;
             this.iconPictureBox1.IconColor = System.Drawing.Color.White;
             this.iconPictureBox1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconPictureBox1.IconSize = 139;
-            this.iconPictureBox1.Location = new System.Drawing.Point(54, 26);
+            this.iconPictureBox1.IconSize = 104;
+            this.iconPictureBox1.Location = new System.Drawing.Point(40, 21);
             this.iconPictureBox1.Margin = new System.Windows.Forms.Padding(0);
             this.iconPictureBox1.Name = "iconPictureBox1";
-            this.iconPictureBox1.Size = new System.Drawing.Size(139, 139);
+            this.iconPictureBox1.Size = new System.Drawing.Size(104, 113);
             this.iconPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.iconPictureBox1.TabIndex = 2;
             this.iconPictureBox1.TabStop = false;
@@ -82,9 +84,10 @@ namespace CapaPresentacion
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(292, 9);
+            this.label3.Location = new System.Drawing.Point(219, 7);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(178, 25);
+            this.label3.Size = new System.Drawing.Size(148, 20);
             this.label3.TabIndex = 3;
             this.label3.Text = "INICIAR SESION";
             // 
@@ -92,9 +95,10 @@ namespace CapaPresentacion
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(295, 60);
+            this.label4.Location = new System.Drawing.Point(221, 49);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(74, 20);
+            this.label4.Size = new System.Drawing.Size(64, 17);
             this.label4.TabIndex = 4;
             this.label4.Text = "Usuario";
             // 
@@ -102,26 +106,29 @@ namespace CapaPresentacion
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(295, 130);
+            this.label5.Location = new System.Drawing.Point(221, 106);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(105, 20);
+            this.label5.Size = new System.Drawing.Size(91, 17);
             this.label5.TabIndex = 5;
             this.label5.Text = "Contraseña";
             // 
             // txtUsuario
             // 
-            this.txtUsuario.Location = new System.Drawing.Point(297, 83);
+            this.txtUsuario.Location = new System.Drawing.Point(223, 67);
+            this.txtUsuario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(177, 22);
+            this.txtUsuario.Size = new System.Drawing.Size(134, 20);
             this.txtUsuario.TabIndex = 6;
             // 
             // txtClave
             // 
-            this.txtClave.Location = new System.Drawing.Point(299, 153);
+            this.txtClave.Location = new System.Drawing.Point(224, 124);
+            this.txtClave.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtClave.Name = "txtClave";
             this.txtClave.PasswordChar = '*';
             this.txtClave.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtClave.Size = new System.Drawing.Size(177, 22);
+            this.txtClave.Size = new System.Drawing.Size(134, 20);
             this.txtClave.TabIndex = 7;
             this.txtClave.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -137,10 +144,10 @@ namespace CapaPresentacion
             this.btninicio.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btninicio.IconSize = 21;
             this.btninicio.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btninicio.Location = new System.Drawing.Point(261, 194);
+            this.btninicio.Location = new System.Drawing.Point(196, 158);
             this.btninicio.Margin = new System.Windows.Forms.Padding(0);
             this.btninicio.Name = "btninicio";
-            this.btninicio.Size = new System.Drawing.Size(152, 30);
+            this.btninicio.Size = new System.Drawing.Size(114, 24);
             this.btninicio.TabIndex = 8;
             this.btninicio.Text = "Iniciar Sesión";
             this.btninicio.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -159,10 +166,10 @@ namespace CapaPresentacion
             this.btnSalir.IconColor = System.Drawing.Color.White;
             this.btnSalir.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnSalir.IconSize = 21;
-            this.btnSalir.Location = new System.Drawing.Point(425, 193);
+            this.btnSalir.Location = new System.Drawing.Point(319, 157);
             this.btnSalir.Margin = new System.Windows.Forms.Padding(0);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(96, 30);
+            this.btnSalir.Size = new System.Drawing.Size(72, 24);
             this.btnSalir.TabIndex = 9;
             this.btnSalir.Text = "Salir";
             this.btnSalir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -171,10 +178,10 @@ namespace CapaPresentacion
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(530, 236);
+            this.ClientSize = new System.Drawing.Size(401, 191);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btninicio);
             this.Controls.Add(this.txtClave);
@@ -186,6 +193,7 @@ namespace CapaPresentacion
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
