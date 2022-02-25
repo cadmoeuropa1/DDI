@@ -1,0 +1,7 @@
+C:\ddi\DDI\TPV_MonsterTruck_RaulPaniti\CapaPresentacion\obj\Release\CapaPresentacion.frmAcercaDe.resources
+C:\ddi\DDI\TPV_MonsterTruck_RaulPaniti\CapaPresentacion\obj\Release\CapaPresentacion.frmInterlocutores.resources
+C:\ddi\DDI\TPV_MonsterTruck_RaulPaniti\CapaPresentacion\obj\Release\CapaPresentacion.Inicio.resources
+C:\ddi\DDI\TPV_MonsterTruck_RaulPaniti\CapaPresentacion\obj\Release\CapaPresentacion.Login.resources
+C:\ddi\DDI\TPV_MonsterTruck_RaulPaniti\CapaPresentacion\obj\Release\CapaPresentacion.Properties.Resources.resources
+C:\ddi\DDI\TPV_MonsterTruck_RaulPaniti\CapaPresentacion\obj\Release\CapaPresentacion.csproj.GenerateResource.cache
+C:\ddi\DDI\TPV_MonsterTruck_RaulPaniti\CapaPresentacion\obj\Release\CapaPresentacion.csproj.CoreCompileInputs.cache

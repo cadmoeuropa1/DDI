@@ -1,0 +1,5 @@
+C:\ddi\DDI\TPV_MonsterTruck_RaulPaniti\CapaEntidad_1\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\ddi\DDI\TPV_MonsterTruck_RaulPaniti\CapaEntidad_1\bin\Debug\CapaEntidad_1.dll
+C:\ddi\DDI\TPV_MonsterTruck_RaulPaniti\CapaEntidad_1\bin\Debug\CapaEntidad_1.pdb
+C:\ddi\DDI\TPV_MonsterTruck_RaulPaniti\CapaEntidad_1\obj\Debug\CapaEntidad_1.dll
+C:\ddi\DDI\TPV_MonsterTruck_RaulPaniti\CapaEntidad_1\obj\Debug\CapaEntidad_1.pdb

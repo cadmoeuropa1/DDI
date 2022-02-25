@@ -1,0 +1,4 @@
+C:\ddi\DDI\TPV_MonsterTruck_RaulPaniti\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+C:\ddi\DDI\TPV_MonsterTruck_RaulPaniti\CapaDatos\obj\Debug\CapaDatos.Properties.Resources.resources
+C:\ddi\DDI\TPV_MonsterTruck_RaulPaniti\CapaDatos\obj\Debug\CapaDatos.csproj.GenerateResource.cache
+C:\ddi\DDI\TPV_MonsterTruck_RaulPaniti\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache

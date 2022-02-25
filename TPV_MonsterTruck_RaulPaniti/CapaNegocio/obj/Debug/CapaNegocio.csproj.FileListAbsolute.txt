@@ -1,0 +1,3 @@
+C:\ddi\DDI\TPV_MonsterTruck_RaulPaniti\CapaNegocio\obj\Debug\CapaNegocio.Properties.Resources.resources
+C:\ddi\DDI\TPV_MonsterTruck_RaulPaniti\CapaNegocio\obj\Debug\CapaNegocio.csproj.GenerateResource.cache
+C:\ddi\DDI\TPV_MonsterTruck_RaulPaniti\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache

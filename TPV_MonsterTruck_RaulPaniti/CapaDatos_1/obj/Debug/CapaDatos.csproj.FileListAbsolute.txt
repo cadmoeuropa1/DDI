@@ -1,0 +1,9 @@
+C:\ddi\DDI\TPV_MonsterTruck_RaulPaniti\CapaDatos_1\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\ddi\DDI\TPV_MonsterTruck_RaulPaniti\CapaDatos_1\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+C:\ddi\DDI\TPV_MonsterTruck_RaulPaniti\CapaDatos_1\bin\Debug\CapaDatos_1.dll
+C:\ddi\DDI\TPV_MonsterTruck_RaulPaniti\CapaDatos_1\bin\Debug\CapaDatos_1.pdb
+C:\ddi\DDI\TPV_MonsterTruck_RaulPaniti\CapaDatos_1\bin\Debug\CapaEntidad_1.dll
+C:\ddi\DDI\TPV_MonsterTruck_RaulPaniti\CapaDatos_1\bin\Debug\CapaEntidad_1.pdb
+C:\ddi\DDI\TPV_MonsterTruck_RaulPaniti\CapaDatos_1\obj\Debug\CapaDatos.csproj.CopyComplete
+C:\ddi\DDI\TPV_MonsterTruck_RaulPaniti\CapaDatos_1\obj\Debug\CapaDatos_1.dll
+C:\ddi\DDI\TPV_MonsterTruck_RaulPaniti\CapaDatos_1\obj\Debug\CapaDatos_1.pdb

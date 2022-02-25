@@ -1,0 +1,11 @@
+C:\ddi\DDI\TPV_MonsterTruck_RaulPaniti\CapaNegocio_1\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\ddi\DDI\TPV_MonsterTruck_RaulPaniti\CapaNegocio_1\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
+C:\ddi\DDI\TPV_MonsterTruck_RaulPaniti\CapaNegocio_1\bin\Debug\CapaNegocio_1.dll
+C:\ddi\DDI\TPV_MonsterTruck_RaulPaniti\CapaNegocio_1\bin\Debug\CapaNegocio_1.pdb
+C:\ddi\DDI\TPV_MonsterTruck_RaulPaniti\CapaNegocio_1\bin\Debug\CapaDatos_1.dll
+C:\ddi\DDI\TPV_MonsterTruck_RaulPaniti\CapaNegocio_1\bin\Debug\CapaEntidad_1.dll
+C:\ddi\DDI\TPV_MonsterTruck_RaulPaniti\CapaNegocio_1\bin\Debug\CapaDatos_1.pdb
+C:\ddi\DDI\TPV_MonsterTruck_RaulPaniti\CapaNegocio_1\bin\Debug\CapaEntidad_1.pdb
+C:\ddi\DDI\TPV_MonsterTruck_RaulPaniti\CapaNegocio_1\obj\Debug\CapaNegocio.csproj.CopyComplete
+C:\ddi\DDI\TPV_MonsterTruck_RaulPaniti\CapaNegocio_1\obj\Debug\CapaNegocio_1.dll
+C:\ddi\DDI\TPV_MonsterTruck_RaulPaniti\CapaNegocio_1\obj\Debug\CapaNegocio_1.pdb

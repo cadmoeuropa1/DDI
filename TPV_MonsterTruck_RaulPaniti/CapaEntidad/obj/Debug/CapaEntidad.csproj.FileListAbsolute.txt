@@ -1,0 +1,4 @@
+C:\ddi\DDI\TPV_MonsterTruck_RaulPaniti\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+C:\ddi\DDI\TPV_MonsterTruck_RaulPaniti\CapaEntidad\obj\Debug\CapaEntidad.Properties.Resources.resources
+C:\ddi\DDI\TPV_MonsterTruck_RaulPaniti\CapaEntidad\obj\Debug\CapaEntidad.csproj.GenerateResource.cache
+C:\ddi\DDI\TPV_MonsterTruck_RaulPaniti\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
